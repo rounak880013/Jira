@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.filters, .action-bottons{
+    border: 1px solid;
+    height: 50%;
+    margin-left: 5rem;
+    margin-top: calc( ( 25 / 100 ) * 15vh );
+    background-color:red;
+}
+.action-bottons{
+    width: 8rem;
+    display: flex;
+}
+.container{
+    height: 100vh;
+}
+.filters{
+    width: 15rem;
+    display: flex;
+}
+.navbar{
+    height:15vh;
+    width:100vw;
+    display: flex;
+    background-color:grey;
+}
+.grid{
+    display: flex;
+    height: 85vh;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filter{
+    height: 100%;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pink{
+    border: 1px solid black;
+    align-self: center;                    
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+    background-color: pink;
+}
+.blue{
+    border: 1px solid black;
+    align-self: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+    background-color: blue;
+}
+.green{
+    border: 1px solid black;
+    align-self: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+    background-color: green;
+}
+.black{
+    border: 1px solid black;
+    width: 80%;
+    align-self: center;
+    height: 80%;
+    border-radius: 6px;
+    background-color: black;
+}
+
+.filter:hover{
+    background-color: green;
+}
+.add:hover{
+    background-color: green;
+}
+.delete:hover , .delete-selector{
+    background-color: green;
+}
+.add, .delete{
+    height: 100%;
+    width: 50%;
+    border: 1px solid;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    height: 20rem;
+    width: 35rem;
+    border: 1px solid black;
+    background-color:white;
+    position: fixed;
+    top:20vh;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.task-section{
+    height: 100%;
+    width: 70%;
+    border:1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.task-inner-section{
+    font-size: 1.2rem;
+    padding: 10px;
+    overflow: auto;
+    height: 95%;
+    width: 95%;
+    border:1px solid;
+    background-color: white;
+}
+.modal-priority-section{
+    height: 100%;
+    width: 30%;
+    border:1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.priority-inner-container{
+    height: 80%;
+    width: 60%;
+    border:1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.modal-priority{
+    width: 80%;
+    height: 22%;
+    border: 1px solid;
+}
+.modal-priority:hover{
+    border: 5px solid gray;
+}
+.selected{
+    border: 5px solid gray;
+}
+.ticket{
+    height: 12rem;
+    width: 20rem;
+    border: 1px solid;
+    margin: 10px;
+}
+.ticket-color{
+    width: 100%;
+    height: 8%;
+    border: 1px solid;
+}
+.ticket-ID{
+    width: 100%;
+    height: 16%;
+    border: 1px solid;
+    padding: 5px;
+    font-weight: bold;
+}
+.actual-task{
+    width: 100%;
+    height: 76%;
+    border: 1px solid;
+    padding: 10px;
+}
